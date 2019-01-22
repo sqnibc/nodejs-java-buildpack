@@ -12,7 +12,7 @@ install_java() {
   mkdir $dir
   tar xzf /tmp/java.tar.gz -C /tmp/jdk
   rm -rf $dir/*
-  mv /tmp/jdk/jdk1.8.0_73/* $dir
+  mv /tmp/jdk/jdk1.8.0_201/* $dir
   chmod +x $dir/bin
   echo "Installation complete!"	
 }
